@@ -1,6 +1,8 @@
 name: Build
+
 on:
-  push: [master]
+  push:
+    branches: main
 
 jobs:
   build:
